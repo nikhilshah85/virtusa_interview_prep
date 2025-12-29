@@ -1,0 +1,82 @@
+Java fundnamentals
+OOPS
+Exception handling
+Collections
+Threading and Stream API 
+----------------------------------------------------
+					Task Activity on Task(Java) 
+1. Create a new Java(.exe) application, bankingAPP_yourname
+2. Have a class, Accounts to have getter and setter properties for (Abstract class)
+	accNo, accName, accType, accBalance,accIsActive
+3. Have methods
+	checkBalance -- return the current balance
+	withdraw(amount) -- ask user how much needs to be withdrawn
+	deposit(amount) -- ask user how much needs to be withdrawn
+4. Have child classes Savings, current, PF
+	override methods withdraw and deposit, 
+	making sure 
+		- savings cannot withdraw more than 5000 in a transaction (no more than availbal)
+	        - Current cannot withdraw more than 25000 in a transaction 
+				it will have a getter and setter - isOdEnabled
+					if enabled they can withdraw even more than their avail balance
+					eg. if they have only 10K they can still get 15K and final bal will
+					become -15K (only if odEnabled = true)
+		- PF can withdraw max 70% available balance 
+5. create an interface before classes and implement it on Accounts class	
+
+		try to 
+		a. apply as many validations where ever u can 
+		b. follow naming conventions - keep your code neat and clean as much as possible
+		c. include comments if you feel
+
+
+when you run the project, it will have a screen 
+	!!~~~~~~~~~~~~~~~ Welcome to BankName ~~~~~~~~~~~~~~~~~~~~~~~ !!
+	1. Create Account
+	2. Check Balance
+	3. Withdraw
+	4. Deposit
+	5. Exit
+
+apply a loop which keep the project running until user selects 5
+
+	---once done
+		create a new git repo - upload your project and share the repo link
+
+-----------------------------------------------------------------------------------------------------------
+		Stage 2
+
+1. implement exceptions 
+2. For create account, ask user which type of accounts
+	a. Savings
+	b. Current
+	c. PF
+		(handle exception if user provides any other value)
+	keep the application running until user says exit
+3. Auto Generate the account Numbers - do not ask user to enter the accNo
+	Savings will have a sequence - SA101 and next will be SA102
+	current will have a sequence - CA501 ....
+	PF will have a sequence      - PF2001 ......
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			 	
+		

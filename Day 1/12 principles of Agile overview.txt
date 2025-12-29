@@ -1,0 +1,14 @@
+12 principles of Agile overview
+
+1. Customer satisfaction is at the center of the project
+2. changing requirements - keep at the figure tip rule, that requirement will change overnight
+3. frequent delivery - keep delivery frequently 
+4. communicate regularly - between teams, clients, developers and testers everyone
+5. In person communication - not over emails, phones, onlines calls etc... this is needed and recommended in 	person
+6.  Keep measuring the progress
+7.  Development progress
+8. Make sure everyone has a good and complete INSIGHT of whole project
+9. Design good and well as much as possible
+10. Measure work project (task progress)
+11. focus on result, keep testing and validating the expected result
+12. Keep room for adjustment in the project and task ahead
