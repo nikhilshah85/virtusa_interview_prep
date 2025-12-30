@@ -118,8 +118,18 @@ TCL
 27. display name of the branch which has the account with highest accBalance
 28. display which city has lowest balance as average of all the account balance
 
+		After you finish the above code activity,
+		please go throught both the PPTS from day 2 folder
+		
+		Lunch : 1:30 - 2:25
 
 
+---------------------------------------------------------
+	Project Activity :
+	Create a SPRINGBOOT REST API application for the banking System
+	where you will connect to MySQL Database and it will allow 
+		GET, PUT, POST and Delete actions from rest connected to the database that you just 
+		designed in the above activity
 
 
 
