@@ -1,0 +1,190 @@
+						Databases
+
+	MySQL - RDBMS 
+	----------------------------------------
+		Normalization (GBS of Data)
+			1st NF
+			2nd NF
+			3rd NF
+
+		Denormalization (used for data analytics for TBs of data)
+			4th NF
+			5th NF
+			6th NF
+
+	-------------------------------------------
+	SQL - Structured Query Language
+	PLSQL / TSQL - Adds programming abilities like loops, conditions, exception handling, compilation, 
+				automation, encapsulation etc...
+
+	-------------------------------------------
+DDL
+			Create
+		tables, views, procedures, functions, triggers, cursor, users, roles, schema, files, etc..
+			Alter
+			to modify anything from above
+			Drop
+			to remove from the database 
+DML
+		insert, update, delete
+DQL 
+		select
+			all columns
+			limited columns
+			colums with alias, (different headers)
+			with calculation 
+			with functions (aggregate functions, string, date, etc..)
+			with order by
+			with where clause
+			with group by
+			with Joins
+				inner join / equi join
+				left join
+				right join
+				cross join
+				null join 
+				self join
+			with nested query	
+TCL
+	commit (control + S)
+	rollback (control + z)
+	savepoint (autosave)
+
+---------------------------------------------------------------------------------------------
+		Plz do everything with code, try not to use any UI (right click create table)
+		create below tables
+			a. branchInfo
+				branchNo (Primary key)
+				branchName (whitefield)
+				branchCity (Bangalore)
+			   add 5 branches
+			b. accountsInfo
+				accNo (primary key)
+				accName (needs to be minimum 3 characters)
+				accType (only Savings, current and PF)
+				accBalance (minimum 500)
+				accIsActive (true or false)
+				accBranch (foreign key to branchInfo)
+			   add 20 records here
+
+---------------------------------------------------------------------------------------------------------			Write the quesries for below
+1. show all the branches
+2. show accno and name from accounts
+3. display 'Respected ' accName has an accType account with us in accBranchno having balance of accbalance
+4. display all the savings account
+5. increase accBalance by 10% for savings, 
+			  15% for current
+			  20% for PF
+	do it in a single query 
+
+6. display Total balance for all the account types
+	Savings 800000
+	Current 190000
+	PF      500000
+7. display all the accounts which are inactive
+8. display all the accounts who has balance less than 20000 and name starts with N (or any character)
+9. display the accounts which are savings and current having balance less than 20000 
+10, display all the accounts which have balance less than the average of all the accounts
+	meaning : if avg(accbalance) = 30000, display accounts with balance less than 30000
+11. display all the accounts from branch and accountsbalance 
+	(cartisian product) - this helps to measure perrmance
+12. display equal accounts from both the tables
+13. display total balance for all the branches based on names
+	Marathalli 400000
+	Hi-TechCity 80000
+	Bandra     ---
+	TNagar	   ---
+14. display total accounts in all the cities
+15. display average balance per account based on on branchno and branchname
+16. display which branch has the highest balance
+17. display accName has account in branchName
+ 
+				Break : 11:45 - 12:00 
+18. About joins
+	add 3 more account in the branch table
+	add 5 accounts in accounts table (keep accountBranch as null)
+
+19. select all the account from accounts table (25 accounts) along with all the columns in the branch table
+	but only accounts which has branches, do not display the branch which does not have branchNo
+20. select only account along with branchtable columns which does not have branchNo
+21. display summary of total accounts for all the branches, display NA for nulls
+22. display all the accounts and branches (single occurance) = total 33 rows
+23. display all the accounts and branches with null values only
+24. create the email id for all account in below format
+	firstname.lastname@branchname.first2characters_of_branch
+	the email id should be lower (use lower function only 1ce in the query)
+25. display which branch has the lowest number of account
+26. display which city has the highest no of accounts
+27. display name of the branch which has the account with highest accBalance
+28. display which city has lowest balance as average of all the account balance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+PLSQL - TSQL 
+	Functions (UDF) 
+	Procedures
+	Triggers 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	MongoDB - NoSQL - document orient design 
+
+
+
