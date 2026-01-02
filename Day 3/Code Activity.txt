@@ -1,0 +1,18 @@
+					Code Activity
+
+	Choose any 1 of the below
+
+1. Create a new Microservice service for user to perform calculations (+, / , - , * )
+	user will provide 2 numbers and a operator, which will return them the result
+2. create a new Microservice to calculate simple intrest,user will provide
+		Principal amount
+		Rate of intrest is 10% (do not need to take this from user)
+		Duration in years (1 year or 5 years based on users need)
+	return simple intrest
+		formula 
+			(Principal * roi) / 100) * years
+
+3. Create an Angular / React / Java  microservice application with a HTMl page which will make a call to 
+	above microservice you developed to see the communication between microservice
+	Miroservice UI App 
+
