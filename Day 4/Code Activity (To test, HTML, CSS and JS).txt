@@ -1,0 +1,160 @@
+				Code Activity	(To test, HTML, CSS and JS) - 20 mins
+	Create a Webpage to calculate the CTC of candidate
+	Take input from user for the below
+		Name (needs to be minimum 3 characters)
+		Male / Female
+		Experience in years (0 to 10 years)
+		City (Dropdown Mumbai, Pune, Bangalore and Hyd)
+			below is the CTC we are offering
+			 Male   Female
+		Basic : 2000    2250
+		PF :    750     750
+		FA :    1250    1250 
+		TA :    1000    1000 
+	House Rent Allowance : 3000, 4000, 5000 and 2500 as per city selected
+	City Allowance : 10%, 14%, 18% and 16% of basic sal for city 
+	experience allowance : 0 to 3 years 10% of basic
+			       3 to 8 years 60% of basic
+			       8 to 10 years 75%
+			above 15 years 90%
+	Gross : Basic + PF + FA + TA + HRA + City + Experience
+	Tax:            10%     7.5% of gross
+	Net : Gross - Tax
+	CTC : Net * 12
+		display GROSS, Net and CTC as output 
+		use minmal code as possible
+------------------------------------------------------------------------------------------------------------------
+
+		If you need to interact with Rest calls without using Angular or react, how will you make a
+		interaction
+
+		ES got you a new light weight method fetch which will make calls easy 
+
+		fetch is a standard JS / ES method to make such calls
+
+		Thus make a call to below url and display the data 
+
+		have a web page, HTML5 with a textbox, make a fetch call to below
+		here user will enter a number (1 to 20) and press a tab, which will display the product
+
+		https://fakestoreapi.com/products/{number} 
+		
+		make a impressive page for the same 
+		display image in round share, 150 150 px
+
+		when user hovers on the image make it 400 400 px in square shape
+
+
+			Take a break : 11:55 - 12:10
+
+
+
+		1. Create a webpage where user will input their name and choose gender from UI
+		2. on the press of tab, display their name in below font
+			https://www.webpagepublicity.com/free-fonts/a/Alix2.ttf
+		3. apply font color, border color, shadow bigger size then h1, display it on right of the page (use 				float property)
+			do a animation (we want to see the creativity)
+				eg, change the border color every 2 sec - use 6-7 colors
+					or make the name blink, or fade in fade out effect
+
+		 4. use pink color for female gender and skyblue/aqua color for male as a background color for text
+			also display shadow
+		
+-----------------------------------------------------------------------------------------------------------
+					Code Activity : Typescript
+
+	Requirements : class, interface, user interaction
+
+		Design and create a strongly typed solution
+
+		For an shopping app we need to have a class Products
+		which will have an array of 10 object of products having
+			pId, pName, pType, pPrice, pIsInStock
+			add minimum 10 products to the list
+
+		add functions for following activites
+		1. Return all the products
+		2. SearchProduct by Name and by avability
+		3. CRUD operations (add, update and delete)
+		4. add a product to cart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		

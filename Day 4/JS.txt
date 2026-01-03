@@ -1,0 +1,43 @@
+					Browsers
+				1. HTML (UI)
+				2. CSS (Decoration)
+				3. JS (Client interactions, client side validations, client side formatting
+						client side calculations, saving client side data(cookies, state management, to make api calls)
+----------------------------------------------------------------------------------------------------------
+		1. JavaScript is a scripting language for client side 
+			Client interactions, client side validations, client side formatting
+						client side calculations, saving client side data(cookies, 				state management, to make api calls)
+		2. it is based on W3C Standards and all the browsers has to support it
+		3. Some of the disadvantages
+			a. No support for OOPS 
+			b. No compiled (runtime execution)
+			c. Not enough datatypes
+			d. JavaScript runs on  single thread
+			e. add Slow DOM and slow rendering with HTML
+			f. logic gets visible on the browser very easily, thus cannot use any business logic 				or algo as it can be easily copied
+			
+		all of the able is now been taken care by ECMA script
+
+		We now have Ecma Script which is OOPS based it supports all the features of modern programming language like Java, C++, C#, etc...
+
+		ES has only 1 challenge,difficult to write and underand for developers, which makes if very less convinent to use and find the resources, (it is very very powerful although)
+		
+	Thus Microsoft came in, created a wrapper on ES, allowing programmers to use it in the same way like java and C#, thus they write the code in Java style, but the compiler will covert it into ES
+		This new wrapped language on ES is called Typescript
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+		
+

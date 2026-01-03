@@ -1,0 +1,21 @@
+
+
+			Code Activity : (25 mins)
+
+			1. Create a new angular project - bankingSys
+			2. we need a service which will have list of accounts
+				a. ServiceAccounts which implements IAccounts 
+					which will have data as list of 10 accounts with properties
+						accNo, accName,accGender, accType, accBalance,accIsActive
+			3. we need to display the data in a component ComponentAccounts
+				display in a table with below 
+				AccNo Name 			AccType AccBalance Intrest       Status
+					Mr.			 
+					Miss.	
+					based on gender(Pipe)			   (2.5 of bal)	Active or inactive
+	
+				display rows in red background for inactive accounts
+
+				use bootstrap / material UI for table
+
+				
