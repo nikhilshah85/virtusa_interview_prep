@@ -1,0 +1,100 @@
+						Web Revolution 
+		Angular and React 
+
+		a. What is a web revolution (2015-16)
+			This is a complete change in how users use the internet 
+			and accordingly developers changed the way they need to create web contents
+
+-------------------------------------------------------------------------------------------
+		1. when did you use the internet firsttime ? - me in 2001
+			world average is 2004 
+
+		2. how did you use the internet (devise) - Desktop / Laptop, browsers(IE)
+		3. where did they use the internet - cafe, libraries, college etc..
+		4. source of internet - broadband
+		5. why did they use internet - (surfing, checking result, play games, Orkut.com,yahoo messenger)
+		
+			Thus developers will create web contents accordngly
+
+	somewhere in 2012-13, use of internet boomed(10 times), which became major challange for developers\
+
+		- how do you use the internet - phone, tabltes, watch, AC, refregirator, car,  laptop
+		- where do people use internet - everywhere 
+		- source - mobile data, wifi, routers, 
+		- why do people use internet - everything
+		
+		- phone, tabltes, watch, AC, refregirator, car,  laptop
+			a. developers now need to create RESPONSIVE content, fit every size 
+			b. harware intgration - integrate with cameras, audio, photos, navigator
+			c. speed of iternet - content shoud be very lightweight nd fast
+			d. kind of applications 
+		- where do people use internet - everywhere 
+		- source - mobile data, wifi, routers, 
+		- why do people use internet - everything
+		- habbits of treating the contents changed -images, videos,  
+
+--------------------------------------
+			we did not had a technology in place to hadle this kind of change
+				different architectures came as a recommendation 
+			and thus it became crutial to come up with a different mindset
+		
+		previously developers created server centric applications
+		now they need to create client centeric application - less roundtrips, client side filtering, sorting, caculations,storing the whole site on clients devise
+			cookies, localstorage, sessionstorage
+
+		storage and processor is a massive change 
+---------------------------------------------------------------------------------------------------
+			All this changes led developers/companies/clients into big problem
+		and that is where W3C, ECMA has to jump in, and brought in a massive frameworks which supports
+			- light weight content
+			- responsive
+			- simple and faster development 
+			- reduce the roundtrips etc..
+
+
+	W3C and ecma came with - HTML5, CSS3, jQuery, ES and other communities came with more such libraries
+	Facebook - React, they purchased a community which developed Redux
+	Microsoft - AngularJS (MVC design patter, super nice library)
+	Google - Node
+	Google gave - Angular - basd on Component development pattern 
+			the eco system is now different for developing web contents
+	Microsoft - Typescript
+		patterns - dependency injection, SPA, REST(JSON is super light)
+
+----------------------------------------------------------------------------------------------------------------------
+		Angular ecosystem (must know what, why, where, how and about)
+			components
+			pipes
+			services
+			decorators
+			spa
+
+	be prepated on the same with what, why, where, how and when and where did you use it in your 
+		capstone project
+			
+	integration with other UI libraties is great (bootstrap, Material)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

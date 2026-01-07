@@ -1,0 +1,29 @@
+java
+rest api
+mongodb
+angular/react
+
+-------------------------------------------------------------------------------
+			Code writing activity - practical assignment 
+
+1. We need a java app - which will make an api call - spring boot app 
+
+		and get the below data
+
+	https://api.nasa.gov/insight_weather/?api_key=&feedtype=json&ver=1.0
+
+2. we need to push this data into a mongodb collection
+
+3. you will need a SPA application, Angular/React which will have below routes
+	a. home page, copy some loremipsom from here
+	b. about, copy some loremipsom from here
+	c. Mars Info - get the data from above api and display the same in cards (use bootstrap/materialui)	
+	d. contact - this will have a form which will accept, 
+		FirstName (mandatory)
+		LastName 
+		emailaddress (make sure it is in a email format with @ and .com
+		Mobile (should be 10 digits)
+		will make a post call and save the data in mongoDB collection 
+---------------------------------------------------------------------------------
+	
+
