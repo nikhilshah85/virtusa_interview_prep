@@ -1,0 +1,13 @@
+1. code review 
+2. microservice app	
+	1. create 3 microservice appliations 
+			helloworld1
+			helloworld2
+			helloworld3
+
+	2. push them to docker hub and remove the images from your machine
+			
+	3. create a dockercompose file which will start all the 3 images (pull if not present on system)
+		in 1 command  - docker compose up - create 3 containers which are in the same network
+		and 1 commans which will stop and delete all the images
+3. Angular QnA

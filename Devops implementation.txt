@@ -1,0 +1,22 @@
+a real project 
+	developer
+		complete the code activiry(UI / backend / middleware etc....)
+
+		from the terminal
+			git add .
+			git commit -m "fdsklfdsl"
+			git push
+
+----------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------
+1. Microservice - docker compose (please finish this during weekend and demo on Monday)
+2. Capstone project deployment 
+	you have your project - which is a repo on git (Git coverage and commands will come)
+	configure CI CD pipeline for the same 
+	deploy this to aws (services)
+			
+		finish this by 6:15-20 and we will have a QnA on the same basis on the previous interviews
+		which happed this week 
+------------------------------------------------------------------------------------------------------
